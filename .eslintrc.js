@@ -34,4 +34,9 @@ module.exports = {
       plugins: ["jest"],
     },
   ],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
